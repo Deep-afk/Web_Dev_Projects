@@ -1,0 +1,37 @@
+h2:hover{
+    color: rgb(19, 194, 141);
+}
+
+h2[class=subtitle]
+{
+    color: rgb(83, 28, 138);
+}
+/* #google-link:link {
+    color: rgb(153, 10, 105);
+}
+
+#google-link:visited{
+    color: salmon;
+} */
+
+h2 + a { /*~ this has to follow same parent and + at everywhere ::these are child selectors*/
+    color: slateblue;
+}
+
+textarea ~ button {
+    color: springgreen;
+}
+
+ul > li { /*direct child*/
+    color: red;
+}
+
+/*ul li { desecendent selector 
+    color: sienna;
+}*/
+
+/*img[source^="../img/"] { starts with that address 
+    border: 10px greenyellow;
+}*/
+
+
