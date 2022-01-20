@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="practice1.css">
+    <link rel="stylesheet" href="practice2color.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice1</title>
+    <title>Color</title>
 </head>
 <body>
-    <h1>My Website</h1>
-    <a href="https:/www.google.com" id="google-link" target="_blank">Click to go to google</a>
+    <h1 id="title">My Website</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    <p class="para-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.</p>
     
-    <h2 class="subtitle vap">About Me</h2>
+    <h2 class="subtitle">About Me</h2>
     
     <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg?crop=1.00xw:0.752xh;0,0.0601xh&resize=768:*">
     
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+    <p class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     
@@ -30,16 +29,17 @@
     Cillum dolore eu fugiat nulla , pariatur:
     
         <ul>
-            <li>Excepteur sint occaecat</li>
+            <li class="list-item">Excepteur sint occaecat</li>
             <ol>
-                <li>this is grandchild to upper list item</li>
+                <li class="list-item">this is grandchild to upper list item</li>
             </ol>
-            <li>sunt in culpa.</li>
+            <li class="list-item">sunt in culpa.</li>
         </ul>
     </p>
     
+    <a href="htttps:/www.google.com" target="_blank" class="link"></a>
     <h2 class="subtitle">Services</h2>
-    
+    <div id="service-image"></div>
     <table border="1">
         <thead>
             <tr>
@@ -69,24 +69,17 @@
     <h2 class="subtitle">Contact Us</h2>
     
     <form>
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email">
-        <textarea></textarea>
+        <div>
+            <input type="text" placeholder="Full Name" class="form-input">
+            <input type="email" placeholder="Email" class="form-input">
+        </div>
+        <br/>
+        <div>
+            <textarea></textarea>
+        </div>
+        
         <button>Submit</button>	
     </form>
     
 </body>
 </html>
-<!--Css order of overwriting
-1.element
-2.class
-3.id
-4.inline
-in incresing order-->
-
-<!--
-    only-child
-    nth-child(n)
-    first-child
-    last-child
--->

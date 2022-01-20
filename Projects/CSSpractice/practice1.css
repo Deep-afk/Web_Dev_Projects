@@ -30,8 +30,19 @@ ul > li { /*direct child*/
     color: sienna;
 }*/
 
-/*img[source^="../img/"] { starts with that address 
+/*img[source^="../img/"] { starts with that address and $ means end with that address and * in between
     border: 10px greenyellow;
 }*/
 
+h2[class~=vap]{ /* spaced */
+    background-color: aqua;
+}
 
+h2[class|=article-subtitle]{
+    border: black;
+}
+
+/*start with subtitle
+subtitle-9292
+subtitle-343
+*/
