@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="practice2color.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +18,13 @@
     
     <h2 class="subtitle">About Me</h2>
     
-    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg?crop=1.00xw:0.752xh;0,0.0601xh&resize=768:*">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg?crop=1.00xw:0.752xh;0,0.0601xh&resize=768:*" id="about-me-image">
     
     <p class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    Lorem ipsum dolor sit amet, <span class="italics">consectetur adipisicing elit</span>, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. 
@@ -37,10 +40,10 @@
         </ul>
     </p>
     
-    <a href="htttps:/www.google.com" target="_blank" class="link"></a>
+    <a href="htttps:/www.google.com" target="_blank" class="link">going to google</a>
     <h2 class="subtitle">Services</h2>
     <div id="service-image"></div>
-    <table border="1">
+    <table border="1" class="site-table">
         <thead>
             <tr>
                 <td>Lorem</td>
@@ -66,6 +69,18 @@
     
     <img src="https://raw.githubusercontent.com/Video-Lab/css-course-content/99be8065eac5684e0106bc094b0c664362a03b83/img/img-2.jpg">
     
+    <div class="container">
+        <div class="container-item">A</div>
+        <div class="container-item">B</div>
+        <div class="container-item">C</div>
+        <div class="container-item">D</div>
+        <div class="container-item">E</div>
+        <!-- <div class="container-item">F</div>
+        <div class="container-item">G</div>
+        <div class="container-item">H</div>
+        <div class="container-item">I</div>
+        <div class="container-item">J</div> -->
+    </div>
     <h2 class="subtitle">Contact Us</h2>
     
     <form>
@@ -75,7 +90,7 @@
         </div>
         <br/>
         <div>
-            <textarea></textarea>
+            <textarea placeholder="Any queries"></textarea>
         </div>
         
         <button>Submit</button>	
