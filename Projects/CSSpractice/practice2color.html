@@ -69,18 +69,42 @@
     
     <img src="https://raw.githubusercontent.com/Video-Lab/css-course-content/99be8065eac5684e0106bc094b0c664362a03b83/img/img-2.jpg">
     
-    <div class="container">
-        <div class="container-item">A</div>
-        <div class="container-item">B</div>
-        <div class="container-item">C</div>
-        <div class="container-item">D</div>
-        <div class="container-item">E</div>
+    <div class="container"><!--deafault grow=0,shrink=1-->
+        <div class="container-item" style="order: 4; 
+        flex: 1 1 100px;
+        align-self: center;            
+        ">A</div>
+        <div class="container-item" style="order: 3; 
+        flex: 1 3 100px;
+        align-self: flex-end;
+        ">B</div>
+        <div class="container-item" style="order: 5; 
+        flex: 5 1 100px;
+        align-self: flex-start;
+        ">C</div>
+        <div class="container-item" style="order: 1; 
+        flex: 1 1 100px;
+        align-self: flex-start;
+        ">D</div>
+        <div class="container-item" style="order: 2; 
+        flex: 1 1 100px;
+        align-self: center;
+        ">E</div>
         <!-- <div class="container-item">F</div>
         <div class="container-item">G</div>
         <div class="container-item">H</div>
         <div class="container-item">I</div>
         <div class="container-item">J</div> -->
     </div>
+    <div class="grid-container">
+        <div class="grid-item" style="background: rgb(255, 150, 150); grid-column: 1 / span 3; grid-row: 1 / span 2; grid-area: 2 / 1 / span 2 / span 3;">1</div><!--rowst colst rowe cole-->
+        <div class="grid-item" style="background: rgb(170, 255, 140);">2</div>
+        <div class="grid-item" style="background: rgb(222, 132, 255);">3</div>
+        <div class="grid-item" style="background: rgb(255, 207, 119);">4</div>
+        <div class="grid-item" style="background: rgb(140, 210, 255);">5</div>
+        <div class="grid-item" style="background: rgb(206, 240, 53);">6</div>
+    </div>
+
     <h2 class="subtitle">Contact Us</h2>
     
     <form>
